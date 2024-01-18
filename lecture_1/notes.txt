@@ -1,0 +1,22 @@
+human -> translator (compiltor, interpretator) -> processor
+
+UNIX-like systems:
+compiler command for c++: g++ sum.cpp -std=c++11
+run command for c++: ./a.out
+
+interpretator for python3: python3 sum.py
+
+WINDOWS:
+gcc main.cpp -std=c++11 
+a
+
+
+algorithm of for-loop:
+1. init
+2. check for condition
+  if true:
+  2.1 exec body of for
+  else:
+  2.2 exit loop
+4. modification
+
