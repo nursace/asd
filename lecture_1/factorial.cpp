@@ -1,17 +1,28 @@
+#include <bitset>
 #include <iostream>
 
 using namespace std;
 
 int main() {
-  int n;
-  int factorial = 1;
+  long long n, factorial = 1;
 
-  cout << "Input a number to calc factorial: ";
-  cin >> n;
+  cout << "input a number: ";
 
-  for(int i = 1; i <= n; i ++) {
-    factorial = factorial * i;
+  while (true) {
+    cin >> n;
+    if (n > 25) {
+      cout << "input a number between 0 and 25 inclusive" << endl;
+    } else {
+      break;
+    }
   }
 
-  cout << "Factorial of n: " << factorial << endl;
+  if (n >= 0) {
+    for (int i = 1; i <= n; i++) {
+      factorial *= i;
+    }
+    cout << "factorial of a number is: " << factorial << endl;
+  } else {
+    cout << "factorial is not defined on negative numbers" << endl;
+  }
 }

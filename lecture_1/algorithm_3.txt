@@ -1,8 +1,35 @@
+Problem: 
 Find the factorial of a number
 
-Specific 1: n = n * (n - 1) * (n - 2) * ... * 1 
+Input: integer  - 0 <= n <= 25 
+Output: integer - factorial of n
 
-Specific 2: n = 1 * 2 * ... * n
+Formula: n * (n - 1) * (n - 2) * ... * 1 
+Alternative foruma: 1 * 2 * ... * n
+Specific: n < 0 -> "factorial is not defined on negative numbers"
+
+pseudocode:
+  factorial = 1, n
+
+  input(n)
+
+  if n >= 0:
+    for i = 1 .. n:
+      factorial = factorial * i
+      i = i + 1
+    print(factorial)
+  else:
+    print("factorial is not defined on negative numbers")
+
+
+Test cases:
+1. 1 -> 1     good
+2. 4 -> 24    good
+3. 5 -> 120   good
+4. 0 -> 1     good
+5. -3 -> error("factorial is not defined on negative numbers") good
+6. 20 -> 2432902008176640000 bad
+
 
 Step 1: Start
 Step 2: Declare variable n, factorial

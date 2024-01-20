@@ -1,3 +1,15 @@
+Algorithms - set of of well-defined instructions to solve a particular problem.
+It takes a set of input(s) and produces the desired output. For example,
+algorithm to add two numbers:
+  1. Take two number inputs
+  2. Add numbers using the + operator
+  3. Display the result
+
+
+
+
+
+
 human -> translator (compiltor, interpretator) -> processor
 
 UNIX-like systems:

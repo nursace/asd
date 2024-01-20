@@ -9,6 +9,7 @@ Step 5: Display sum
 Step 6: Stop
 
 Pseudo code:
-    input(a, b)
-    sum = a + b
-    display(sum)
+  num1, num2, sum: int
+  input(num1, num2)
+  sum = num1 + num2
+  display(sum)
