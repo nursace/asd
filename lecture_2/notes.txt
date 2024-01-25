@@ -1,0 +1,23 @@
+array - set of single type elements
+
+set - nabor / mnozhestvo
+
+
+
+
+
+0000000000000000 -> 0 
+0000000000000001 -> 1
+0000000000000010 -> 2
+0000000000000011 -> 3
+0000000000001000 -> 8
+0000000000001001 -> 9 
+.
+.
+.
+0111111111111111 -> maximal positive number
+1111111111111111 -> maximal negative number
+MSB - most significant bit
+LSB - least significant bit
+
+
