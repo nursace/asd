@@ -3,7 +3,6 @@
 using namespace std;
 
 int main () {
-
   // int n; // 4 byte
   // cout << "input a number: ";
   // cin >> n;
@@ -14,17 +13,15 @@ int main () {
   int sum = 0;
   while (sum >= 0) {
     sum = 0;
-
-
-    k = n;
+    n += 1;
+    k = n; // 1000365
+           //
     while (k --) {
       sum = sum + k;
     }
 
-    n += 1;
   }
 
-  cout << "n: " << n << endl;
+  cout << "n: " << n  << endl;
   cout << "sum: " << sum << endl;
-
 }
