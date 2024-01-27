@@ -3,25 +3,20 @@
 using namespace std;
 
 int main () {
-  // int n; // 4 byte
-  // cout << "input a number: ";
-  // cin >> n;
+  // 1...1000368
+  int n; // 4 byte
 
+  do {
+    cout << "input a positive number: ";
+    cin >> n;
+  } while (n < 0);
+
+  unsigned int sum = 0;
   int k = 0;
-  int n = 1000000;
 
-  int sum = 0;
-  while (sum >= 0) {
-    sum = 0;
-    n += 1;
-    k = n; // 1000365
-           //
-    while (k --) {
-      sum = sum + k;
-    }
-
+  while (n --) {
+    sum = sum + n;
   }
 
-  cout << "n: " << n  << endl;
   cout << "sum: " << sum << endl;
 }
