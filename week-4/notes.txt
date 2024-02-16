@@ -1,0 +1,2 @@
+
+Analyzing an algorithm has come to mean predicting the resources that the algo- rithm requires. You might consider resources such as memory, communication bandwidth, or energy consumption. Most often, however, you’ll want to measure computational time. If you analyze several candidate algorithms for a problem, you can identify the most efûcient one. There might be more than just one viable candidate, but you can often rule out several inferior algorithms in the process.
